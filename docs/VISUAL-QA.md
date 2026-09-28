@@ -61,7 +61,9 @@ Semua halaman lulus pemeriksaan otomatis berikut:
 
 ## Perbaikan yang dilakukan
 
-Ukuran judul utama desktop diperkecil secara terukur agar ajakan tindakan tidak terdorong terlalu jauh ke bawah layar pertama.
+- Beranda direvisi dengan pola pembuka lebar, latar penuh, header putih, tombol penawaran, dan tiga kartu layanan sebagai interpretasi orisinal dari pola situs referensi.
+- Ukuran dan lebar judul utama desktop disesuaikan agar penjelasan serta ajakan tindakan tampil pada layar pertama.
+- Tampilan ponsel diperiksa ulang setelah revisi dan tetap berada dalam batas layar.
 
 ## Lingkungan Chromium
 
