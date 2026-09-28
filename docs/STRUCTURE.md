@@ -26,8 +26,8 @@
 
 ## Token desain
 
-- Warna utama: hijau gelap `#102f2b`
-- Aksen: hijau `#29a36a`, kuning `#f4d26b`, jingga `#ef734f`
+- Warna utama: hijau gelap `#0b2f4a`
+- Aksen: hijau `#087ea4`, kuning `#f4a340`, jingga `#ef7d32`
 - Latar: putih lembut `#f6f8f5`
 - Bentuk: radius 10px, 20px, 32px
 - Titik henti: 480px, 768px, 1024px
