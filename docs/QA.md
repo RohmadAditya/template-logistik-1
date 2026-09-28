@@ -14,7 +14,7 @@ Tanggal pemeriksaan: 28 September 2026
 | Aksesibilitas dasar | LULUS | Tautan lewati konten, fokus terlihat, label formulir, dan status formulir tersedia |
 | Konsol | LULUS | Tidak ada `console.log` yang tertinggal |
 | Git | LULUS | Komit build awal dan QA tersedia |
-| Pemeriksaan visual peramban | TERTUNDA | Peramban otomatis tidak dapat dimulai karena pustaka sistem seperti `libatk-1.0.so.0` belum tersedia |
+| Pemeriksaan visual peramban | LULUS | 60 tangkapan layar: 30 halaman pada desktop 1365×900 dan ponsel 390×844; tidak ada luapan horizontal atau halaman gagal dimuat |
 
 ## Cakupan halaman
 
