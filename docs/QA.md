@@ -37,4 +37,3 @@ Tanggal pemeriksaan: 28 September 2026
 - Tambahkan nomor WhatsApp bisnis resmi jika digunakan.
 - Periksa tampilan akhir pada 375px, 768px, 1024px, dan 1280px setelah pustaka peramban tersedia.
 - Tinjau dan sahkan semua angka demonstrasi sebelum dipublikasikan.
-
