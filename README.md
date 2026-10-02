@@ -13,10 +13,10 @@ Buka `http://localhost:8000`.
 ## Struktur
 
 - `index.html` — halaman beranda
-- `pages/about.html` — tentang kami
-- `pages/services.html` — layanan
-- `pages/fleet.html` — armada
-- `pages/contact.html` — kontak
+- `about.html` — tentang kami
+- `services.html` — layanan
+- `fleet.html` — armada
+- `contact.html` — kontak
 - `css/` — token, dasar, komponen, dan bagian halaman
 - `js/site.js` — menu, animasi masuk, formulir, dan tahun otomatis
 - `assets/` — favicon dan gambar sosial orisinal berbasis SVG
