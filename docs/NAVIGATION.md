@@ -1,11 +1,11 @@
 # Peta Navigasi
 
-Navbar sekarang memakai kelompok halaman agar seluruh 30 halaman tetap mudah ditemukan tanpa memenuhi baris header.
+Template dirampingkan menjadi lima halaman utama agar informasi inti lebih cepat ditemukan.
 
-- **Layanan:** layanan utama, layanan khusus, antarmoda, solusi digital, visibilitas, portal mitra, keberlanjutan.
-- **Jaringan:** armada dan pangkalan.
-- **Sektor:** makanan dan minuman, ritel, kesehatan dan farmasi, elektronik dan teknologi, perdagangan digital, kosmetik dan kebersihan, mode dan gaya hidup, agrikultur, otomotif, industri dan manufaktur, bahan kimia.
-- **Perusahaan:** tentang kami, tim pengelola, karier, laporan, kebijakan.
-- **Akses langsung:** untuk mitra, wawasan, kontak, dan dapatkan penawaran.
+- **Beranda:** ringkasan layanan dan ajakan konsultasi.
+- **Tentang Kami:** profil, cara kerja, dan nilai operasional.
+- **Layanan:** cakupan transportasi dan distribusi.
+- **Armada:** kapasitas dan kesiapan kendaraan.
+- **Kontak:** kanal komunikasi dan formulir kebutuhan pengiriman.
 
-Desktop memakai dropdown bertingkat. Ponsel memakai menu yang dapat dibuka dan submenu `details` agar tetap dapat digunakan dengan keyboard tanpa JavaScript tambahan.
+Navbar desktop dan menu ponsel memakai lima rute yang sama. Tombol mengambang di setiap halaman membuka WhatsApp bisnis.

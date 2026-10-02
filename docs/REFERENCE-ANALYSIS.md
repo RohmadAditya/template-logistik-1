@@ -17,7 +17,7 @@ Metode: pemeriksaan halaman langsung memakai Chromium pada desktop 1280 px dan p
 
 - Nama NusaRoute, logo, ikon, teks, layout kode, dan foto CDN tidak menyalin aset Girteka.
 - Angka operasional dan alamat kontak tetap ditandai sebagai data demonstrasi.
-- Struktur 30 halaman dipertahankan untuk templat company profile multipage, dengan halaman sektor, layanan, jaringan, perusahaan, wawasan, dan kontak.
+- Struktur lima halaman dipertahankan agar templat company profile tetap ringkas: beranda, tentang kami, layanan, armada, dan kontak.
 
 ## Catatan visual
 

@@ -12,7 +12,11 @@ Buka `http://localhost:8000`.
 
 ## Struktur
 
-- `index.html` — halaman utama
+- `index.html` — halaman beranda
+- `pages/about.html` — tentang kami
+- `pages/services.html` — layanan
+- `pages/fleet.html` — armada
+- `pages/contact.html` — kontak
 - `css/` — token, dasar, komponen, dan bagian halaman
 - `js/site.js` — menu, animasi masuk, formulir, dan tahun otomatis
 - `assets/` — favicon dan gambar sosial orisinal berbasis SVG
@@ -23,7 +27,7 @@ Buka `http://localhost:8000`.
 1. Ganti identitas NusaRoute dengan identitas bisnis sebenarnya.
 2. Ganti alamat surel dan domain contoh pada `index.html`, `robots.txt`, dan `sitemap.xml`.
 3. Sambungkan formulir ke layanan atau API penerima pesan.
-4. Tambahkan nomor WhatsApp resmi jika diperlukan.
+4. Ganti nomor WhatsApp contoh `628998183329` dengan nomor resmi bisnis.
 5. Ganti angka demonstrasi dengan data yang terverifikasi.
 
 ## Lisensi
