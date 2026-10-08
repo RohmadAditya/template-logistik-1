@@ -124,9 +124,22 @@ html.js .hero-copy,html.js .hero-media,html.js .stats-grid div,html.js .profile-
 @media(max-width:767px){.home-hero{min-height:auto}.home-hero .hero-inner{min-height:0;grid-template-columns:1fr;gap:38px;padding-block:62px}.home-hero h1{font-size:clamp(3rem,13vw,4.4rem)}.home-hero .hero-lead{font-size:.98rem}.home-hero .hero-media{width:100%;margin:0}.home-hero .hero-media img{height:235px}.home-hero .home-section-cta{width:100%}}
 
 /* homepage-hero-dark-background */
-.home-hero{background-image:linear-gradient(90deg,rgba(7,20,38,.94) 0%,rgba(7,20,38,.78) 52%,rgba(7,20,38,.42) 100%),url(../assets/official/profile-01.jpg);background-position:center;background-size:cover;color:var(--white);padding-block:60px}.home-hero .hero-inner{grid-template-columns:1fr;min-height:620px;padding-block:80px}.home-hero .hero-copy{max-width:720px}.home-hero .kicker{color:var(--blue-bright)}.home-hero .kicker span{background:var(--blue-bright)}.home-hero h1{color:var(--white)}.home-hero .hero-lead{color:rgba(255,255,255,.78)}.home-hero .hero-media{display:none}
-@media(max-width:1023px){.home-hero{padding-block:40px}.home-hero .hero-inner{min-height:520px;padding-block:60px}}
-@media(max-width:767px){.home-hero{padding-block:30px;min-height:auto}.home-hero .hero-inner{min-height:0;padding-block:50px}}
+.home-hero{background-image:linear-gradient(90deg,rgba(7,20,38,.94) 0%,rgba(7,20,38,.78) 52%,rgba(7,20,38,.42) 100%),url("https://images.pexels.com/photos/2199293/pexels-photo-2199293.jpeg?auto=compress&cs=tinysrgb&w=2400");background-position:center;background-size:cover;color:var(--white);padding-block:0}.home-hero .hero-inner{grid-template-columns:1fr;min-height:460px;padding-block:48px}.home-hero .hero-copy{max-width:720px}.home-hero .kicker{color:var(--blue-bright);margin-bottom:14px}.home-hero .kicker span{background:var(--blue-bright)}.home-hero h1{color:var(--white);font-size:clamp(2.6rem,4.5vw,4.4rem);line-height:1.02;margin-bottom:16px}.home-hero .hero-lead{max-width:580px;margin-bottom:22px;color:rgba(255,255,255,.82);font-size:1.02rem;line-height:1.6}.home-hero .hero-media{display:none}
+@media(max-width:1023px){.home-hero{padding-block:0}.home-hero .hero-inner{min-height:420px;padding-block:40px}}
+@media(max-width:767px){.home-hero{padding-block:0;min-height:auto}.home-hero .hero-inner{min-height:0;padding-block:38px}}
+
+/* home-about-refined-layout */
+.home-about-section{padding-block:72px;background:var(--white)}
+.home-about-layout{display:grid;grid-template-columns:1.1fr 0.9fr;gap:56px;align-items:center}
+.home-about-content{display:flex;flex-direction:column;gap:18px}
+.home-about-content h2{font-size:clamp(2rem,3.2vw,3rem);line-height:1.08;color:var(--ink);margin:0}
+.home-about-content p{color:var(--text);font-size:1.02rem;line-height:1.68;margin:0}
+.home-about-card{padding:36px;background:#f5f7fa;border-left:4px solid var(--blue);border-radius:4px;display:flex;flex-direction:column;gap:20px}
+.home-about-badge{display:inline-flex;align-items:center;gap:8px;font-size:.76rem;font-weight:800;letter-spacing:.12em;text-transform:uppercase;color:var(--blue)}
+.home-about-card-text{color:var(--text);font-size:.95rem;line-height:1.65;margin:0}
+.home-about-card .button{align-self:flex-start;margin-top:4px}
+@media(max-width:1023px){.home-about-layout{grid-template-columns:1fr;gap:36px}.home-about-card{padding:28px}}
+@media(max-width:767px){.home-about-section{padding-block:54px}}
 
 /* homepage-tracking-background */
 .home-tracking-section{background:linear-gradient(90deg,rgba(7,20,38,.94) 0%,rgba(7,20,38,.82) 54%,rgba(7,20,38,.58) 100%),url(../assets/images/cta-logistics-hd.jpg) center 55%/cover;color:var(--white)}.home-tracking-section .eyebrow{color:var(--blue-bright)}.home-tracking-section h2{color:var(--white)}.home-tracking-section p:not(.eyebrow){color:rgba(255,255,255,.78)}
