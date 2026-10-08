@@ -1,6 +1,6 @@
 # template-logistik-1
 
-Templat situs company profile logistik Lookman Djaja Logistics dengan HTML5, CSS3, dan JavaScript murni.
+Templat situs company profile logistik TransLogika Logistics dengan HTML5, CSS3, dan JavaScript murni.
 
 ## Menjalankan lokal
 

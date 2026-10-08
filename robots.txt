@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.lookmandjaja.com/sitemap.xml
+Sitemap: https://www.translogika.id/sitemap.xml

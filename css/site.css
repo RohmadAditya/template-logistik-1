@@ -124,8 +124,9 @@ html.js .hero-copy,html.js .hero-media,html.js .stats-grid div,html.js .profile-
 @media(max-width:767px){.home-hero{min-height:auto}.home-hero .hero-inner{min-height:0;grid-template-columns:1fr;gap:38px;padding-block:62px}.home-hero h1{font-size:clamp(3rem,13vw,4.4rem)}.home-hero .hero-lead{font-size:.98rem}.home-hero .hero-media{width:100%;margin:0}.home-hero .hero-media img{height:235px}.home-hero .home-section-cta{width:100%}}
 
 /* homepage-hero-dark-background */
-.home-hero{background-image:linear-gradient(90deg,rgba(7,20,38,.94) 0%,rgba(7,20,38,.78) 52%,rgba(7,20,38,.42) 100%),url(../assets/official/profile-01.jpg);background-position:center;background-size:cover;color:var(--white)}.home-hero .hero-inner{grid-template-columns:1fr;min-height:560px}.home-hero .hero-copy{max-width:700px}.home-hero .kicker{color:var(--blue-bright)}.home-hero .kicker span{background:var(--blue-bright)}.home-hero h1{color:var(--white)}.home-hero .hero-lead{color:rgba(255,255,255,.78)}.home-hero .hero-media{display:none}
-@media(max-width:767px){.home-hero .hero-inner{min-height:0}}
+.home-hero{background-image:linear-gradient(90deg,rgba(7,20,38,.94) 0%,rgba(7,20,38,.78) 52%,rgba(7,20,38,.42) 100%),url(../assets/official/profile-01.jpg);background-position:center;background-size:cover;color:var(--white);padding-block:60px}.home-hero .hero-inner{grid-template-columns:1fr;min-height:620px;padding-block:80px}.home-hero .hero-copy{max-width:720px}.home-hero .kicker{color:var(--blue-bright)}.home-hero .kicker span{background:var(--blue-bright)}.home-hero h1{color:var(--white)}.home-hero .hero-lead{color:rgba(255,255,255,.78)}.home-hero .hero-media{display:none}
+@media(max-width:1023px){.home-hero{padding-block:40px}.home-hero .hero-inner{min-height:520px;padding-block:60px}}
+@media(max-width:767px){.home-hero{padding-block:30px;min-height:auto}.home-hero .hero-inner{min-height:0;padding-block:50px}}
 
 /* homepage-tracking-background */
 .home-tracking-section{background:linear-gradient(90deg,rgba(7,20,38,.94) 0%,rgba(7,20,38,.82) 54%,rgba(7,20,38,.58) 100%),url(../assets/images/cta-logistics-hd.jpg) center 55%/cover;color:var(--white)}.home-tracking-section .eyebrow{color:var(--blue-bright)}.home-tracking-section h2{color:var(--white)}.home-tracking-section p:not(.eyebrow){color:rgba(255,255,255,.78)}
