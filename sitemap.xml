@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://example.com/template-logistik-1/index.html</loc><lastmod>2026-10-02</lastmod></url>
-  <url><loc>https://example.com/template-logistik-1/about.html</loc><lastmod>2026-10-02</lastmod></url>
-  <url><loc>https://example.com/template-logistik-1/services.html</loc><lastmod>2026-10-02</lastmod></url>
-  <url><loc>https://example.com/template-logistik-1/fleet.html</loc><lastmod>2026-10-02</lastmod></url>
-  <url><loc>https://example.com/template-logistik-1/contact.html</loc><lastmod>2026-10-02</lastmod></url>
+  <url><loc>https://www.lookmandjaja.com/</loc><lastmod>2026-10-02</lastmod><changefreq>monthly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://www.lookmandjaja.com/profil.html</loc><lastmod>2026-10-02</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.lookmandjaja.com/layanan.html</loc><lastmod>2026-10-02</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.lookmandjaja.com/armada.html</loc><lastmod>2026-10-02</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.lookmandjaja.com/tracking.html</loc><lastmod>2026-10-02</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.lookmandjaja.com/kontak.html</loc><lastmod>2026-10-02</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
 </urlset>

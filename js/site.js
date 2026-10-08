@@ -1,28 +1,15 @@
+document.documentElement.classList.add("js");
 document.addEventListener("DOMContentLoaded",()=>{
-  const b=document.querySelector("[data-menu]"),n=document.querySelector("[data-nav]");
-  if(b&&n)b.addEventListener("click",()=>n.classList.toggle("open"));
-
-  document.querySelectorAll("[data-whatsapp-form]").forEach(form=>form.addEventListener("submit",e=>{
-    e.preventDefault();
-    const data=new FormData(form);
-    const message=[
-      "Halo NusaRoute Logistics, saya ingin meminta informasi pengiriman.",
-      "",
-      `Nama lengkap: ${data.get("nama")||"-"}`,
-      `Email bisnis: ${data.get("email")||"-"}`,
-      `Kota asal: ${data.get("asal")||"-"}`,
-      `Kota tujuan: ${data.get("tujuan")||"-"}`,
-      `Jenis kebutuhan: ${data.get("kebutuhan")||"-"}`,
-      `Pesan: ${data.get("pesan")||"-"}`
-    ].join("\n");
-    window.location.href=`https://wa.me/628998183329?text=${encodeURIComponent(message)}`;
-  }));
-
-  document.querySelectorAll("form:not([data-whatsapp-form])").forEach(f=>f.addEventListener("submit",e=>{
-    e.preventDefault();
-    const s=document.createElement("p");
-    s.className="muted";
-    s.textContent="Terima kasih. Formulir ini masih berupa simulasi dan belum tersambung ke sistem produksi.";
-    f.append(s);
-  }));
-});
+  const contactSelectors=[".contact-page-hero .container",".contact-directory-heading",".contact-info-card",".contact-maps-heading",".contact-map-card",".contact-form-copy",".contact-form-section .form-card",".compact-cta-inner"];
+  if(document.querySelector(".contact-page-hero")){
+    const revealItems=document.querySelectorAll(contactSelectors.join(","));
+    revealItems.forEach((element,index)=>{element.classList.add("contact-reveal");element.style.setProperty("--reveal-delay",`${Math.min(index*65,260)}ms`);});
+    revealItems.forEach((element,index)=>{element.style.setProperty("--reveal-delay",`${Math.min(index*65,260)}ms`);});
+  }
+  if(document.querySelector(".fleet-page-hero")){const fleetItems=document.querySelectorAll(".fleet-page-hero h1,.fleet-intro-grid,.fleet-catalog-card,.fleet-fit-heading,.fleet-fit-grid article,.fleet-note");fleetItems.forEach((element,index)=>element.style.setProperty("--reveal-delay",`${Math.min(index*55,240)}ms`));}
+  if(document.querySelector(".services-page-hero")){const serviceItems=document.querySelectorAll(".services-page-hero h1,.service-catalog-card,.service-reviews-heading,.service-review-card,.services-detail-copy,.services-detail-list,.services-rate-inner");serviceItems.forEach((element,index)=>element.style.setProperty("--reveal-delay",`${Math.min(index*55,240)}ms`));}
+  if(document.querySelector(".profile-page-hero")){const profileItems=document.querySelectorAll(".profile-page-hero h1,.profile-story-grid,.profile-principles-heading,.profile-principles-grid article,.profile-clients-heading,.profile-client-logo,.profile-coverage-inner");profileItems.forEach((element,index)=>element.style.setProperty("--reveal-delay",`${Math.min(index*55,240)}ms`));}
+  if(document.querySelector(".hero")){const homeItems=document.querySelectorAll(".hero-copy,.hero-media,.stats-grid div,.profile-section .two-col,.services-section .section-heading,.service-card,.fleet-section .section-heading,.fleet-card,.tracking-inner,.home-closing-cta .compact-cta-inner");homeItems.forEach((element,index)=>element.style.setProperty("--reveal-delay",`${Math.min(index*45,260)}ms`));}
+  const trackingForm=document.querySelector("[data-tracking-form]");
+  if(trackingForm){trackingForm.addEventListener("submit",event=>{event.preventDefault();const status=trackingForm.querySelector("[data-tracking-status]");if(status)status.textContent="Sistem tracking publik sedang disiapkan. Hubungi tim kami untuk informasi pengiriman.";});const trackingItems=document.querySelectorAll(".tracking-page-hero .container,.tracking-intro-copy,.tracking-panel,.tracking-step,.tracking-note-inner,.compact-cta-inner");trackingItems.forEach((element,index)=>{element.classList.add("tracking-reveal");element.style.setProperty("--reveal-delay",`${Math.min(index*65,260)}ms`);});}
+  const button=document.querySelector("[data-menu]"),nav=document.querySelector("[data-nav]");if(button&&nav){button.addEventListener("click",()=>{const open=nav.classList.toggle("open");button.setAttribute("aria-expanded",String(open));});}document.querySelectorAll("[data-whatsapp-form]").forEach(form=>form.addEventListener("submit",event=>{event.preventDefault();const data=new FormData(form);const labels={nama:"Nama lengkap",perusahaan:"Perusahaan",asal:"Kota asal",tujuan:"Kota tujuan",muatan:"Jenis muatan",volume:"Volume/berat",jadwal:"Jadwal",pesan:"Pesan"};const lines=["Halo Lookman Djaja, saya ingin meminta penawaran pengiriman.",""];Object.entries(labels).forEach(([key,label])=>lines.push(`${label}: ${data.get(key)||"-"}`));window.location.href=`https://wa.me/6281213283987?text=${encodeURIComponent(lines.join("\n"))}`;}));});

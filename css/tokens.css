@@ -1,7 +1,0 @@
-:root {
-  --teal-950:#063b46; --teal-900:#075464; --teal-800:#0b6677; --teal-700:#147b88;
-  --green:#35bd76; --green-dark:#15955a; --sky:#dcebed; --sky-soft:#eef5f5;
-  --ink:#084f60; --text:#4d5d61; --muted:#788589; --line:#dfe7e8; --white:#fff;
-  --orange:#f4a343; --shadow:0 14px 32px rgba(6,59,70,.12); --container:1240px;
-  --radius:6px; --radius-lg:14px; --ease:cubic-bezier(.2,.7,.25,1);
-}
